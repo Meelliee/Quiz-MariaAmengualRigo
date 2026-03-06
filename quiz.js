@@ -37,21 +37,21 @@
                 correcta: "",
             },
             {
-                imagen: "imagenes/paris.jpg",
-                pregunta: "El puente más antiguo de Paris se llama:",
-                opcion1: "Le pont Neuf" ,
-                opcion2: "Le pont Alexandre III" ,
-                opcion3: "Le pont des Arts" ,
-                opcion4: "Le pont Saint-Louis",
+                imagen: "imagenes/sistemasolar.jpg",
+                pregunta: "¿Cuáles son los planetas rocosos del Sistema Solar?",
+                opcion1: "Mercurio, Tierra, Martes y Urano" ,
+                opcion2: "Marte, Tierra, Júpiter y Neptuno" ,
+                opcion3: "Mercurio, Venus, Tierra y Marte" ,
+                opcion4: "Júpiter, Saturno, Urano y Neptuno",
                 correcta: "",
             },
             {
-                imagen: "imagenes/paris.jpg",
-                pregunta: "El puente más antiguo de Paris se llama:",
-                opcion1: "Le pont Neuf" ,
-                opcion2: "Le pont Alexandre III" ,
-                opcion3: "Le pont des Arts" ,
-                opcion4: "Le pont Saint-Louis",
+                imagen: "imagenes/luna.jpg",
+                pregunta: "¿Qué material pisó Amstrong nada más poner un pie sobre la Luna?",
+                opcion1: "Selenita" ,
+                opcion2: "Lunita" ,
+                opcion3: "Regolito" ,
+                opcion4: "Moonita",
                 correcta: "",
             }
         ]
@@ -65,5 +65,7 @@
         - París: https://pariseando.com/que-tanto-conoces-de-paris/
         - Pacífico: https://wayground.com/admin/quiz/66085bd89684070740f7f9cd/oceano-pacifico
         - CPU: https://www.studocu.com/ca-es/quiz/dsbm-tema-3-la-cpu-apuntes-ejemplos/6810078
-        - Bombilla: 
+        - Bombilla: https://wayground.com/admin/quiz/5f1134ec1c7ab3001c9b0f11/la-bombilla
+        - Sistema Solar: https://wayground.com/admin/quiz/5803d1ff65c03e5c4f91055c/sistema-solar
+        - Luna: https://www.nationalgeographic.com.es/ciencia/cuanto-sabes-sobre-luna_17706/9
         */
