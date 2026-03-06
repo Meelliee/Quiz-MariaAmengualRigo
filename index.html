@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mini Juegos JS</title>
+        <script type="text/javascript" src="/ruxitagentjs_ICA7NVfqrux_10331260218130851.js" data-dtconfig="rid=RID_-175566506|rpid=2113471686|domain=castillalamancha.es|reportUrl=/rb_bf82769wsq|app=6aa7270853b4a0c8|owasp=1|featureHash=ICA7NVfqrux|rdnt=1|uxrgce=1|cuc=zd8e90he|mel=100000|expw=1|dpvc=1|lastModification=1772618114034|postfix=zd8e90he|tp=500,50,0|srbbv=2|agentUri=/ruxitagentjs_ICA7NVfqrux_10331260218130851.js"></script><link rel="icon" type="image/png" href="imagenes/mando.png">
+        <script src="javascript.js" defer></script>
+        <link rel="stylesheet" href="estilos.css">
+
+    </head>
+<body>
+
+    <header>
+        <h1>🎮 Plataforma de Mini Juegos</h1>
+        <div id="reloj"></div>
+    </header>
+
+    <div class="contenedor">
+
+        <aside>
+            <h2>Selecciona un juego</h2>
+
+            <div class="tarjetas">
+                
+                <!--Quiz de fotos carrusel-->
+                <div class="tarjeta c1" data-juego="carrusel">
+                    <img class="card-img" src="imagenes/quiz.png" alt="Carrusel del juego">
+                    <p>Quiz</p>
+                </div>
+
+
+                <!--Partes del ordenador-->
+
+                <div class="tarjeta c2" data-juego="partes">
+                    <img class="card-img" src="imagenes/ordenador.png" alt="Carrusel del juego">
+                    <p>Partes del ordenador</p>
+                </div>
+
+                <!--Caza moscas-->
+
+                <div class="tarjeta c3" data-juego="moscas">
+                    <img class="card-img" src="imagenes/mosca.png" alt="Carrusel del juego">
+                    <p>Caza Moscas</p>
+                </div>
+
+                <!--Impostor-->
+
+                <div class="tarjeta c4" data-juego="impostor">
+                    <img class="card-img" src="imagenes/impostor.png" alt="Carrusel del juego">
+                    <p>El impostor</p>
+                </div>
+
+                <!-- EXTRAS -->
+                <!--Coordenadas-->
+                <div class="tarjeta c5" data-juego="coordenadas">
+                    <img class="card-img" src="imagenes/quiz.png" alt="Carrusel del juego">
+                    <p>Juego Coordenadas</p>
+                </div>
+
+                <!--Ahorcado-->
+                <div class="tarjeta c6" data-juego="ahorcado">
+                    <img class="card-img" src="imagenes/ahorcado.png" alt="Carrusel del juego">
+                    <p>Ahorcado</p>
+                </div>
+
+            </div>
+
+        </aside>
+
+        <section>
+            <!--QUIZ CARRUSEL-->
+            <section id="carrusel" class="juego activo">
+                <div class="quiz-wrapper">
+                    <header class="quiz-header">
+                        <h2>Juego 1: Carrusel + Quiz</h2>
+                        <p class="quiz-subtitle">
+                            Usa los botones anterior / siguiente para cambiar de imagen y elige la respuesta correcta.
+                        </p>
+                    </header>
+
+                    <div class="quiz-main">
+                        <!-- Panel de imagen + navegación -->
+                        <div class="quiz-image-panel">
+                            <button type="button" class="nav-btn" id="btn-prev" aria-label="Pregunta anterior">◀</button>
+
+                            <img id="quiz-img"
+                                src="imagenes/paris.jpg"
+                                alt="Imagen del quiz 1"
+                                class="quiz-img">
+
+                            <button type="button" class="nav-btn" id="btn-next" aria-label="Pregunta siguiente">▶</button>
+                        </div>
+
+                        <!-- Panel de pregunta y opciones -->
+                        <div class="quiz-question-panel">
+                            <p id="quiz-question" class="quiz-question">
+                                Aquí aparecerá la pregunta relacionada con la imagen.
+                            </p>
+
+                            <div class="quiz-options" id="quiz-options">
+                                <button type="button" class="quiz-option">Opción 1</button>
+                                <button type="button" class="quiz-option">Opción 2</button>
+                                <button type="button" class="quiz-option">Opción 3</button>
+                                <button type="button" class="quiz-option">Opción 4</button>
+                            </div>
+
+                            <p id="quiz-feedback" class="quiz-feedback"></p>
+
+                            <p id="quiz-status" class="quiz-status">
+                                Pregunta 1 de N · Aciertos: 0
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="quiz-resumen" class="quiz-resumen">
+                    <h3>Resumen del juego</h3>
+                    <p id="quiz-resumen-texto"></p>
+                    <button type="button" id="quiz-reiniciar" class="quiz-btn">
+                        Volver a jugar
+                    </button>
+                </div>
+            </section>
+
+<!--Me gusta más hacer el JS separado del html, creo que queda más limpio -->
+</body>
+</html>
+
